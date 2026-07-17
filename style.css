@@ -1035,6 +1035,20 @@ body {
     color: var(--text-primary);
 }
 
+.program-entry {
+    margin-top: var(--spacing-md);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs);
+}
+
+.btn-entry {
+    padding: 0.8rem 1.8rem;
+    font-size: 0.95rem;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
 .programs-participation {
     margin-top: var(--spacing-xl);
     padding-top: var(--spacing-xl);
