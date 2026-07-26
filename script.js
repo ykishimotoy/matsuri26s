@@ -303,7 +303,7 @@ class RippleAnimation {
 
             // Draw inner glow
             const gradient = this.ctx.createRadialGradient(
-                ripple.x, ripple.y, ripple.radius - 20,
+                ripple.x, ripple.y, Math.max(0, ripple.radius - 20),
                 ripple.x, ripple.y, ripple.radius
             );
             gradient.addColorStop(0, `rgba(${ripple.color.r}, ${ripple.color.g}, ${ripple.color.b}, 0)`);
@@ -417,6 +417,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialize blazing flame animation for programs section
     const blazingFlameAnimation = new BlazingFlameAnimation('blazingFlameCanvas');
+    const blazingFlameAnimation2 = new BlazingFlameAnimation('blazingFlameCanvas2');
 
     // Initialize ripple animation for AI Dojo section
     const rippleAnimation = new RippleAnimation('rippleCanvas');
