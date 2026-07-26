@@ -840,6 +840,11 @@ body {
     font-size: 1.3rem;
 }
 
+.plan-benefits-list li strong {
+    color: var(--flame-orange);
+    font-weight: 700;
+}
+
 .plan-notes-title {
     font-size: 1.5rem;
     font-weight: 700;
