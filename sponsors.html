@@ -28,17 +28,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body data-page="sponsors">
 
     <!-- Hero Section -->
     <section class="sponsors-hero">
+        <div class="lang-switcher">
+            <button type="button" class="lang-btn active" data-lang="ja">JP</button>
+            <button type="button" class="lang-btn" data-lang="en">EN</button>
+            <button type="button" class="lang-btn" data-lang="zh">CH</button>
+        </div>
         <div class="container">
-            <a href="index.html" class="back-link">← トップページに戻る</a>
+            <a href="index.html" class="back-link" data-i18n="sp.back">← トップページに戻る</a>
             <h1 class="sponsors-hero-title">
                 <span class="title-en-large">BECOME A SPONSOR</span>
-                <span class="title-ja-large">スポンサー募集</span>
+                <span class="title-ja-large" data-i18n="sp.hero_title">スポンサー募集</span>
             </h1>
-            <p class="sponsors-hero-description">札幌に、AIの炎を。<br>学び、挑み、楽しむ市民発のAIまつりを、一緒に支えませんか。</p>
+            <p class="sponsors-hero-description" data-i18n="sp.hero_description">札幌に、AIの炎を。<br>学び、挑み、楽しむ市民発のAIまつりを、一緒に支えませんか。</p>
         </div>
     </section>
 
@@ -48,17 +53,17 @@
             <div class="section-header">
                 <h2 class="section-title">
                     <span class="title-en">PAST EVENT</span>
-                    <span class="title-ja">スポンサー紹介のイメージ</span>
+                    <span class="title-ja" data-i18n="sp.past_title">スポンサー紹介のイメージ</span>
                 </h2>
-                <p class="section-description">過去イベントでの実施の様子。<br>スポンサー企業・団体様を、会場とウェブサイトでご紹介しました。</p>
+                <p class="section-description" data-i18n="sp.past_description">過去イベントでの実施の様子。<br>スポンサー企業・団体様を、会場とウェブサイトでご紹介しました。</p>
             </div>
             <div class="sp-past-grid">
                 <div class="sp-past-image-wrap">
-                    <p class="sp-past-label">事例1：札幌すごいAIまつり 2026冬</p>
+                    <p class="sp-past-label" data-i18n="sp.past_label1">事例1：札幌すごいAIまつり 2026冬</p>
                     <img src="images/sponsors.png" alt="スポンサー企業・団体（札幌すごいAIまつり 2026冬）" class="sp-past-image">
                 </div>
                 <div class="sp-past-image-wrap">
-                    <p class="sp-past-label">事例2：札幌すごいAIハッカソン 2026春</p>
+                    <p class="sp-past-label" data-i18n="sp.past_label2">事例2：札幌すごいAIハッカソン 2026春</p>
                     <img src="images/sponsors2.png" alt="スポンサー企業・団体（札幌すごいAIハッカソン 2026春）" class="sp-past-image">
                 </div>
             </div>
@@ -71,24 +76,24 @@
             <div class="section-header">
                 <h2 class="section-title">
                     <span class="title-en">WHY SPONSOR</span>
-                    <span class="title-ja">スポンサーになる意義</span>
+                    <span class="title-ja" data-i18n="sp.why_title">スポンサーになる意義</span>
                 </h2>
             </div>
             <div class="sponsor-benefits">
                 <div class="benefit-card">
                     <div class="benefit-icon">🔥</div>
-                    <h3 class="benefit-title">「AIで挑む人」と出会える</h3>
-                    <p class="benefit-description">AI芸術祭・AI映画祭、AIハッカソン、AI LT会。ここに集まるのは、実際に手を動かしてAIで作り、挑んでいる人たちです。採用でも共創でも協業でも、「話が早い相手」にまとめて出会える場です。</p>
+                    <h3 class="benefit-title" data-i18n="sp.benefit1_title">「AIで挑む人」と出会える</h3>
+                    <p class="benefit-description" data-i18n="sp.benefit1_description">AI芸術祭・AI映画祭、AIハッカソン、AI LT会。ここに集まるのは、実際に手を動かしてAIで作り、挑んでいる人たちです。採用でも共創でも協業でも、「話が早い相手」にまとめて出会える場です。</p>
                 </div>
                 <div class="benefit-card">
                     <div class="benefit-icon">🏅</div>
-                    <h3 class="benefit-title">札幌のAI文化の「発起人」になる</h3>
-                    <p class="benefit-description">市民発のAIまつりは、いままさに文化として立ち上がる瞬間です。「最初から支えた企業」として記憶される側に回れるのは、最初の数回だけ。広告枠の購入ではなく、文化の発起人として記録されるタイプの投資です。</p>
+                    <h3 class="benefit-title" data-i18n="sp.benefit2_title">札幌のAI文化の「発起人」になる</h3>
+                    <p class="benefit-description" data-i18n="sp.benefit2_description">市民発のAIまつりは、いままさに文化として立ち上がる瞬間です。「最初から支えた企業」として記憶される側に回れるのは、最初の数回だけ。広告枠の購入ではなく、文化の発起人として記録されるタイプの投資です。</p>
                 </div>
                 <div class="benefit-card">
                     <div class="benefit-icon">📡</div>
-                    <h3 class="benefit-title">届くのは、全員「当事者」</h3>
-                    <p class="benefit-description">会場の大スクリーンを見上げる人も、SNSで感想を投稿する人も、AIを学び、使い、作っている・作りたい人だけです。マス広告の「なんとなく目に入る」露出とは質が違う、深い文脈のリーチが可能です。</p>
+                    <h3 class="benefit-title" data-i18n="sp.benefit3_title">届くのは、全員「当事者」</h3>
+                    <p class="benefit-description" data-i18n="sp.benefit3_description">会場の大スクリーンを見上げる人も、SNSで感想を投稿する人も、AIを学び、使い、作っている・作りたい人だけです。マス広告の「なんとなく目に入る」露出とは質が違う、深い文脈のリーチが可能です。</p>
                 </div>
             </div>
         </div>
@@ -100,21 +105,21 @@
             <div class="plan-header">
                 <h2 class="tier-title">
                     <span class="tier-icon">💎</span>
-                    <span class="tier-name">プラチナスポンサー</span>
+                    <span class="tier-name" data-i18n="sp.platinum_name">プラチナスポンサー</span>
                 </h2>
                 <p class="plan-price">¥100,000</p>
-                <p class="plan-description">各イベント限定2枠。賞に名前を刻み、挑戦者の記憶に残り続ける。<br>まつりの賞を貴社名で創設できる、広告では買えないブランディングです。</p>
+                <p class="plan-description" data-i18n="sp.platinum_description">各イベント限定2枠。賞に名前を刻み、挑戦者の記憶に残り続ける。<br>まつりの賞を貴社名で創設できる、広告では買えないブランディングです。</p>
             </div>
             <div class="plan-content">
-                <h3 class="plan-benefits-title">特典内容</h3>
+                <h3 class="plan-benefits-title" data-i18n="sp.benefits_title">特典内容</h3>
                 <ul class="plan-benefits-list">
-                    <li><strong>現地イベントいずれか1つでの賞の命名権（例：〇〇賞、〇〇社長賞 など。任意の名称・受賞コメントで授与できます）</strong></li>
-                    <li><strong>現地の全イベントでの15秒〜60秒のCM放映（任意の長さ）</strong></li>
-                    <li><strong>法人としての現地ブース展示</strong></li>
-                    <li><strong>ブースでの販促物の配布</strong></li>
-                    <li>イベント開会時の企業名・ロゴの紹介</li>
-                    <li>公式サイトへの企業名とロゴの掲載</li>
-                    <li>希望者全員の札幌現地イベントご招待（一般席）</li>
+                    <li data-i18n="sp.item_award"><strong>現地イベントいずれか1つでの賞の命名権（例：〇〇賞、〇〇社長賞 など。任意の名称・受賞コメントで授与できます）</strong></li>
+                    <li data-i18n="sp.item_cm"><strong>現地の全イベントでの15秒〜60秒のCM放映（任意の長さ）</strong></li>
+                    <li data-i18n="sp.item_booth"><strong>法人としての現地ブース展示</strong></li>
+                    <li data-i18n="sp.item_promo"><strong>ブースでの販促物の配布</strong></li>
+                    <li data-i18n="sp.item_opening">イベント開会時の企業名・ロゴの紹介</li>
+                    <li data-i18n="sp.item_website">公式サイトへの企業名とロゴの掲載</li>
+                    <li data-i18n="sp.item_invite">希望者全員の札幌現地イベントご招待（一般席）</li>
                 </ul>
             </div>
         </div>
@@ -126,19 +131,19 @@
             <div class="plan-header">
                 <h2 class="tier-title">
                     <span class="tier-icon">🥇</span>
-                    <span class="tier-name">ゴールドスポンサー</span>
+                    <span class="tier-name" data-i18n="sp.gold_name">ゴールドスポンサー</span>
                 </h2>
                 <p class="plan-price">¥50,000</p>
-                <p class="plan-description">会場にブースを構え、来場者と直接つながる。<br>AIに感度の高い来場者に、自社のサービスと想いを直接届けられます。</p>
+                <p class="plan-description" data-i18n="sp.gold_description">会場にブースを構え、来場者と直接つながる。<br>AIに感度の高い来場者に、自社のサービスと想いを直接届けられます。</p>
             </div>
             <div class="plan-content">
-                <h3 class="plan-benefits-title">特典内容</h3>
+                <h3 class="plan-benefits-title" data-i18n="sp.benefits_title">特典内容</h3>
                 <ul class="plan-benefits-list">
-                    <li><strong>法人としての現地ブース展示</strong></li>
-                    <li><strong>ブースでの販促物の配布</strong></li>
-                    <li>イベント開会時の企業名・ロゴの紹介</li>
-                    <li>公式サイトへの企業名とロゴの掲載</li>
-                    <li>希望者全員の札幌現地イベントご招待（一般席）</li>
+                    <li data-i18n="sp.item_booth"><strong>法人としての現地ブース展示</strong></li>
+                    <li data-i18n="sp.item_promo"><strong>ブースでの販促物の配布</strong></li>
+                    <li data-i18n="sp.item_opening">イベント開会時の企業名・ロゴの紹介</li>
+                    <li data-i18n="sp.item_website">公式サイトへの企業名とロゴの掲載</li>
+                    <li data-i18n="sp.item_invite">希望者全員の札幌現地イベントご招待（一般席）</li>
                 </ul>
             </div>
         </div>
@@ -150,17 +155,17 @@
             <div class="plan-header">
                 <h2 class="tier-title">
                     <span class="tier-icon">🥈</span>
-                    <span class="tier-name">シルバースポンサー</span>
+                    <span class="tier-name" data-i18n="sp.silver_name">シルバースポンサー</span>
                 </h2>
                 <p class="plan-price">¥20,000</p>
-                <p class="plan-description">または同等のサービス等のご提供でも承ります。<br>「最初から支えた企業」として、札幌のAI文化の記録に名前が残ります。</p>
+                <p class="plan-description" data-i18n="sp.silver_description">または同等のサービス等のご提供でも承ります。<br>「最初から支えた企業」として、札幌のAI文化の記録に名前が残ります。</p>
             </div>
             <div class="plan-content">
-                <h3 class="plan-benefits-title">特典内容</h3>
+                <h3 class="plan-benefits-title" data-i18n="sp.benefits_title">特典内容</h3>
                 <ul class="plan-benefits-list">
-                    <li>イベント開会時の企業名・ロゴの紹介</li>
-                    <li>公式サイトへの企業名とロゴの掲載</li>
-                    <li>希望者全員の札幌現地イベントご招待（一般席）</li>
+                    <li data-i18n="sp.item_opening">イベント開会時の企業名・ロゴの紹介</li>
+                    <li data-i18n="sp.item_website">公式サイトへの企業名とロゴの掲載</li>
+                    <li data-i18n="sp.item_invite">希望者全員の札幌現地イベントご招待（一般席）</li>
                 </ul>
             </div>
         </div>
@@ -172,21 +177,21 @@
             <div class="section-header">
                 <h2 class="section-title">
                     <span class="title-en">NOTES</span>
-                    <span class="title-ja">共通事項・備考</span>
+                    <span class="title-ja" data-i18n="sp.notes_title">共通事項・備考</span>
                 </h2>
             </div>
             <div class="plan-content">
                 <ul class="plan-notes-list">
-                    <li><strong>日時</strong>：2026年8月29日(土) 9:30開場〜20:30頃</li>
-                    <li><strong>場所</strong>：Deep Tech CORE SAPPORO</li>
-                    <li><strong>プラチナ枠数</strong>：2枠限定（先着順）</li>
-                    <li><strong>賞の選定（プラチナのみ）</strong>：授与対象は審査員が選定するほか、貴社・貴団体の社員様が直接選ぶことも可能です。賞の名称は事前にご指定ください。</li>
-                    <li><strong>CM動画（プラチナのみ）</strong>：15秒〜60秒の任意の長さで、現地の全イベントで放映。放映を希望されない場合は省略いただけます。</li>
-                    <li><strong>ブース展示（プラチナ・ゴールド）</strong>：ブースの位置・広さは会場レイアウトの都合により調整させていただきます。販促物は各社にてご準備ください。</li>
-                    <li><strong>データ提出</strong>：CM動画・企業名・ロゴのデータは事前にメールでご提出いただきます。</li>
-                    <li><strong>配信について</strong>：配信環境や動画形式の都合上、オンライン配信時に映像品質が低下する場合がございますので、あらかじめご了承ください。</li>
-                    <li><strong>交通費・滞在費</strong>：スポンサー様の交通費や滞在費は各自でご負担ください。</li>
-                    <li><strong>連絡方法</strong>：詳細はメールにてご連絡します。</li>
+                    <li data-i18n="sp.note_date"><strong>日時</strong>：2026年8月29日(土) 9:30開場〜20:30頃</li>
+                    <li data-i18n="sp.note_venue"><strong>場所</strong>：Deep Tech CORE SAPPORO</li>
+                    <li data-i18n="sp.note_slots"><strong>プラチナ枠数</strong>：2枠限定（先着順）</li>
+                    <li data-i18n="sp.note_award"><strong>賞の選定（プラチナのみ）</strong>：授与対象は審査員が選定するほか、貴社・貴団体の社員様が直接選ぶことも可能です。賞の名称は事前にご指定ください。</li>
+                    <li data-i18n="sp.note_cm"><strong>CM動画（プラチナのみ）</strong>：15秒〜60秒の任意の長さで、現地の全イベントで放映。放映を希望されない場合は省略いただけます。</li>
+                    <li data-i18n="sp.note_booth"><strong>ブース展示（プラチナ・ゴールド）</strong>：ブースの位置・広さは会場レイアウトの都合により調整させていただきます。販促物は各社にてご準備ください。</li>
+                    <li data-i18n="sp.note_data"><strong>データ提出</strong>：CM動画・企業名・ロゴのデータは事前にメールでご提出いただきます。</li>
+                    <li data-i18n="sp.note_stream"><strong>配信について</strong>：配信環境や動画形式の都合上、オンライン配信時に映像品質が低下する場合がございますので、あらかじめご了承ください。</li>
+                    <li data-i18n="sp.note_travel"><strong>交通費・滞在費</strong>：スポンサー様の交通費や滞在費は各自でご負担ください。</li>
+                    <li data-i18n="sp.note_contact"><strong>連絡方法</strong>：詳細はメールにてご連絡します。</li>
                 </ul>
             </div>
         </div>
@@ -196,8 +201,8 @@
     <section id="contact" class="section sponsor-contact">
         <div class="container">
             <div class="cta-content">
-                <h2 class="cta-title">スポンサーのお申し込み・<br>お問い合わせ</h2>
-                <p class="cta-description">
+                <h2 class="cta-title" data-i18n="sp.contact_title">スポンサーのお申し込み・<br>お問い合わせ</h2>
+                <p class="cta-description" data-i18n="sp.contact_description">
                     スポンサーにご興味をお持ちの企業・団体様は、<br>
                     メールにてお気軽にご連絡ください。
                 </p>
@@ -216,27 +221,28 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h3>札幌すごいAIまつり 2026夏</h3>
-                    <p>Sapporo Sugoi AI Festival 2026 Summer</p>
+                    <h3 data-i18n="footer.logo_title">札幌すごいAIまつり 2026夏</h3>
+                    <p data-i18n="footer.logo_sub">Sapporo Sugoi AI Festival 2026 Summer</p>
                 </div>
                 <div class="footer-links">
-                    <a href="index.html">トップページ</a>
-                    <a href="#why-sponsor">スポンサーになる意義</a>
+                    <a href="index.html" data-i18n="sp.footer_top">トップページ</a>
+                    <a href="#why-sponsor" data-i18n="sp.why_title">スポンサーになる意義</a>
                     <a href="https://discord.gg/Ve2tQeN7cw" target="_blank" rel="noopener noreferrer">Discord</a>
                 </div>
                 <div class="footer-info">
-                    <p>主催：札幌すごいAI会</p>
-                    <p>会場協力：Deep Tech CORE SAPPORO</p>
+                    <p data-i18n="footer.organizer">主催：札幌すごいAI会</p>
+                    <p data-i18n="footer.venue">会場協力：Deep Tech CORE SAPPORO</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 札幌すごいAI会 All rights reserved.</p>
-                <p class="footer-disclaimer">※本イベントは個人有志による活動であり、特定の企業・団体を代表するものではありません。</p>
+                <p data-i18n="footer.copyright">&copy; 2026 札幌すごいAI会 All rights reserved.</p>
+                <p class="footer-disclaimer" data-i18n="footer.disclaimer">※本イベントは個人有志による活動であり、特定の企業・団体を代表するものではありません。</p>
                 <p class="footer-hashtag">#札幌すごいAIまつり</p>
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    <script src="i18n.js"></script>
 </body>
 </html>

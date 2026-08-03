@@ -599,6 +599,7 @@ body {
 
 /* Sponsors Page Specific Styles */
 .sponsors-hero {
+    position: relative;
     min-height: 50vh;
     display: flex;
     flex-direction: column;
@@ -1746,3 +1747,55 @@ body {
     }
 }
 /* test 2025年 11月30日 日曜日 22時10分03秒 JST */
+
+/* Language Switcher (hero内・右上に配置。スクロールでheroと共に画面外へ) */
+.lang-switcher {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    z-index: 10;
+    display: flex;
+    gap: 0.2rem;
+    background: rgba(26, 26, 26, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 999px;
+    padding: 0.25rem;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+}
+
+.lang-btn {
+    font-family: var(--font-primary);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    background: transparent;
+    border: none;
+    border-radius: 999px;
+    padding: 0.3rem 0.8rem;
+    cursor: pointer;
+    transition: color 0.2s ease, background 0.2s ease;
+}
+
+.lang-btn:hover {
+    color: var(--text-primary);
+}
+
+.lang-btn.active {
+    background: var(--accent-gradient);
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .lang-switcher {
+        top: 0.75rem;
+        right: 0.75rem;
+    }
+
+    .lang-btn {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.65rem;
+        width: auto;
+    }
+}
