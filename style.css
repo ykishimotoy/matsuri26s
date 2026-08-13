@@ -962,6 +962,7 @@ body {
     position: relative;
     transition: all 0.3s ease;
     border: 1px solid rgba(255, 107, 53, 0.1);
+    scroll-margin-top: 24px;
 }
 
 .program-card:hover {
