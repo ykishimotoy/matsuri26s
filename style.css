@@ -540,8 +540,9 @@ body {
 }
 
 .sponsor-logo span {
-    font-size: 2rem;
-    color: var(--text-secondary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ffffff;
 }
 
 .sponsor-name {
