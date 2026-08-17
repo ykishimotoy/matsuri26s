@@ -517,6 +517,12 @@ body {
     border: 1px solid rgba(255, 107, 53, 0.1);
 }
 
+a.sponsor-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
 .sponsor-card:hover {
     transform: translateY(-4px);
     border-color: var(--flame-orange);
