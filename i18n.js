@@ -26,7 +26,7 @@
             'overview.venue_value': 'Deep Tech CORE SAPPORO<br>Giant screen & pitch area + exhibition booths, fully reserved',
 
             'sponsors.title': 'Sponsors',
-            'sponsors.description': 'These are the companies and organizations supporting the AI Festival.<br>We are deeply grateful for their warm support.',
+            'sponsors.description': 'These are the companies, organizations, and services supporting the AI Festival.<br>We are deeply grateful for their warm support.',
             'sponsors.link': 'Interested in becoming a sponsor?',
 
             'contents.title': 'Contents',
@@ -172,7 +172,7 @@
             'overview.venue_value': 'Deep Tech CORE SAPPORO<br>超大屏幕・路演区＋展位 全场包场',
 
             'sponsors.title': '赞助商',
-            'sponsors.description': '以下是支持AI祭典的赞助企业与团体。<br>对他们的热情支持致以衷心的感谢。',
+            'sponsors.description': '以下是支持AI祭典的赞助企业、团体与服务。<br>对他们的热情支持致以衷心的感谢。',
             'sponsors.link': '赞助商招募详情',
 
             'contents.title': '活动内容',
